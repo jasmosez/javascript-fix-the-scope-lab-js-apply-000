@@ -27,5 +27,8 @@ var funkyFunction = function() {
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
+
+// created new variable to house the function returned by funkyFunction. 
+// Then called that as a function by adding parens
 var thePreFunk = funkyFunction();
 var theFunk = thePreFunk();
